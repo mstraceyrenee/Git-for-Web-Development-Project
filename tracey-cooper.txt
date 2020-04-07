@@ -1,42 +1,95 @@
 Completed CodePen : https://codepen.io/mstraceyrenee/pen/YzyKzmd
 
- 1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+        HTML tags that have meaning
     2. What is HTML used for? 
+        To format and display web content
     3. What is an attribute and where do we put it? 
+        Attributes define the characteristics of an HTML element. They are placed inside the element's opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag is used to designate the most important thing on the page. It should only be used once.
     5. Name two tags that have required attributes
+        anchor and image 
     6. What do we put in the head of our HTML document? 
+        The title of the document, scripts, styles and meta information
     7. What is an id? 
+        A type of CSS selector
     8. What elements can I add an id to? 
+        Id's can be added to any element 
     9. How many times can I use the same id on a page? 
+        once
     10. What is a class? 
+        A type of CSS selector
     11. What elements can I add a class to? 
+        Classes can be added to any element
     12. How many times can I use the same class on a page? 
+        multiple times
     13. How do I get my link to open in a new tab?
+        target="_blank"
     14. What is the alt attribute in the image tag used for? 
+        It displays text describing the picture for visually impaired people
     15. How do I reference an id?
+        #
     16. What is the difference between a section and a div
+        A section defines content in a document that should be grouped together, whereas a div does not have any semantic meaning
     17. What is CSS used for? 
+        CSS is used to style an HTML document
     18. How to we select an element? Example - every h2 on the page
+        h2 {
+
+        }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Classes can be used multiple times in a document whereas an id can only be used once per page. A class might be used to style all the paragraph elements on a page. An id might be used to style the main header.
     20. How do we select classes in CSS?
+        .
     21. How do we select a p element with a single class of “human””?
+        p.human
     22. What is a parent child selector? When would this be useful? 
+        Selects all the elements that are the direct child of an element. This would be useful if you needed to style the first or last child differently than the other children.
     23. How do you select all links within a div with the class of sidebar?
+        a div.sidebar 
     24. What is a pseudo selector?
+        Allows you to style a specific part or state of an element
     25. What do we use the change the spacing between lines?
+        line-height:
     26. What do we use to change the spacing between letters?
+        letter-spacing:
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:
     28. How do I add a 1px border around my div that is dotted and black?
+        div{
+            border: 1px dotted black;
+        }
     29. How do I select everything on the page? 
+        *
     30. How do I write a comment in CSS?
+        /* enter comment here */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm. You have to be careful because deleting files this way is irreversible.
     34. Why should I use version control? 
+        In case you need to undo a redo code
     35. How often should I commit to github?
+        Whenever big changes are made or every 15-20 mins
     36. What is the command we would use to push our repo up to github? 
+        git push 
     37. Walk me through Lambda's git flow. 
+        - fork the repo
+        - add your TL as a collaborator
+        - clone the repo by copying the link and then using the git clone command in terminal
+        - cd into the repo
+        - create a branch using the git checkout -b 'firstname-lastname' command
+        - make changes to the repo
+        - use the git add . and git commit commands to save the changes
+        - push the changes back up to github using the git push -u origin firstname-lastname command
+        - on github, select your branch from the branch drop-down menu
+        - click "New pull request"
+        - change the base repository to your forked repo 
+        - add your TL to the Reviewers section
+        - click "Create pull request"
 
 Stretch Questions
 
